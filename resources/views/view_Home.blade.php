@@ -95,7 +95,6 @@
 
             <thead>
                 <tr>
-                    <th></th>
                     <th>รหัสนักศึกษา</th>
                     <th>ชื่อ-สกุล</th>
                     <th>คณะสังกัด</th>
@@ -113,7 +112,7 @@
                 <?php foreach ($studentloads as $tmp) { ?>
                     <tr>
                         <!-- show data on database -->
-                        <td> {{$tmp['id']}} </td>
+                        <!-- <td> {{$tmp['id']}} </td> -->
                         <td> {{$tmp['stdid']}} </td>
                         <td> {{$tmp['stdname']}} </td>
                         <td> {{$tmp['faculty']}} </td>
