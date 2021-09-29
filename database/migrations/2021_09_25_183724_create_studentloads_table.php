@@ -23,6 +23,7 @@ class CreateStudentloadsTable extends Migration
             $table->string('term');
             $table->integer('termfees');
             $table->integer('livecost');
+            
         });
     }
 
