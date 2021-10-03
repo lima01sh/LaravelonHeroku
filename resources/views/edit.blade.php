@@ -19,6 +19,7 @@
         padding: 0;
         margin: 0 auto;
     }
+
     .ma-con {
         padding-top: 2rem;
     }
@@ -64,7 +65,8 @@
         background-color: #E74C3C;
         color: white;
     }
-    .nav_b:hover{
+
+    .nav_b:hover {
         text-decoration: none;
     }
 </style>
@@ -75,8 +77,8 @@
             <div class="pa-head">
                 <p>( *ใช้เพื่อการศึกษา <b>1143111-59 Web Programing</b> )</p>
                 <div>
-                    <img src="https://i.ibb.co/2sFrKKd/cri.png" alt="logo-cri" class="d-inline-block align-text-top img">
-                    <img src="https://i.ibb.co/Fh0y04R/U-logo.png" alt="U-logo" class="d-inline-block align-text-top img">
+                    <img src="https://i.ibb.co/2sFrKKd/cri.png" alt="logo-cri" width="120" height="96" class="d-inline-block align-text-top">
+                    <img src="https://i.ibb.co/Fh0y04R/U-logo.png" alt="U-logo" width="100" height="96" class="d-inline-block align-text-top">
                 </div>
                 <hr>
                 <h2>ระบบจัดการข้อมูลการกู้ กยศ. มหาวิทยาลัยอุบลราชธานี</h2>
@@ -122,7 +124,7 @@
                     <div class="row form-group">
                         <label class="col-sm-4 ">ประเภทที่กู้:</label>
                         <div class="col-sm-8 ">
-                            <select class="form-control" id="type" name="type" >
+                            <select class="form-control" id="type" name="type">
                                 <option value="{{$tmpstudent->type}}" selected>-{{$tmpstudent->type}}-</option>
                                 <option value="กยศ.">กยศ.</option>
                                 <option value="กรอ.">กรอ.</option>

@@ -92,7 +92,6 @@
         </a>
         <br>
         <table class="table table-hover">
-
             <thead>
                 <tr>
                     <th>รหัสนักศึกษา</th>
