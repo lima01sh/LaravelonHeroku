@@ -78,16 +78,14 @@
 
             </div>
         </div>
-
-        <br />
         @if (\Session::has('success'))
         <div class="alert alert-success">
             <p>{{ \Session::get('success') }}</p>
-        </div><br />
+        </div>
         @endif
 
         <a class="nav-link" href="{{ url('/create') }}">
-            <button type="submit" class="btn btn-lg color btn-success">เพิ่มข้อมูล</button>
+            <button type="submit" class="btn btn-lg color btn-success">Add</button>
             <br>
         </a>
         <br>
